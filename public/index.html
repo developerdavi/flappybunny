@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FlappyBunny</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <style> body {cursor: none; padding: 0; margin: 0; overflow: hidden;} #score {display: none; text-shadow: 3px 3px black; font-family: 'Lobster', cursive; color: white; position: absolute; top: 50px; margin-left: 50vw} #countdown { text-shadow: 3px 3px black; margin-top: 0px; padding-top: 0; font-family: 'Lobster', cursive; font-size: 96px; color: white; position: absolute; top: 46vh; margin-left: 49vw} </style>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io();
+    </script>
+    <script src="libraries/brainjs/browser.js" charset="utf-8"></script>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/addons/p5.dom.min.js"></script>
+    <script src="libraries/addons/p5.sound.min.js"></script>
+    <script src="libraries/genetic.js"></script>
+    <script src="libraries/jquery.js"></script>
+    <script src="pipe.js"></script>
+    <script src="bird.js"></script>
+    <script src="sketch.js"></script>
+  </head>
+  <body>
+    <h1 id="score"><b>0</b></h1>
+    <p id="countdown"><b>3</b></p>
+  </body>
+</html>

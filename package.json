@@ -1,0 +1,20 @@
+{
+  "name": "flappybunny",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "email": "hello@devdavi.com.br",
+    "name": "Davi Rodrigues Coelho"
+  },
+  "private": false,
+  "repository": {
+    "url": "https://github.com/developerdavi/flappybunny",
+    "type": "public"
+  },
+  "description": "science fair I.A demo",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.1.1",
+    "path": "^0.12.7"
+  }
+}
