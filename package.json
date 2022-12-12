@@ -13,7 +13,7 @@
   },
   "description": "science fair I.A demo",
   "dependencies": {
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "socket.io": "^2.1.1",
     "path": "^0.12.7"
   }
